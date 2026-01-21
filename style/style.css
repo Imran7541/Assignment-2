@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Inter';   
+}
+
+ /* shared styles */
+.display-flex{
+    display: flex;
+}
+ /* header styles */
+.header-box{
+    border: 1px solid;
+    padding:16px 200px 16px 200px;
+    background: rgba(26, 11, 46, 1);
+}
+
+
+ /* navbar related styles */
+ .logo{
+    color: #FFFF;
+ }
+ .navbar{
+    justify-content: space-between;}
+   
+ .nav-item{
+    list-style: none;
+    margin-left: 32px;
+     
+ }
+
+ 
+ .nav-links{
+    
+ }
+ .nav-link{
+    color: #FFFF;
+    text-decoration: none;
+ }
+ .btn-primary{
+ font-size: 16px;
+ font-weight: 600;
+ background-color:linear-gradient(135deg,#ff3fcf,#ffb347);
+ }
+ 
+ /* hero-section */
+ #section{
+  position: relative;  
+   height: 100vh;
+   background-image:  url(../assets/hero-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+     
+ }
+ .hero-parent{
+   
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+   }
+   .circle-box{
+      justify-items: center;
+      align-items: center;
+      
+   }
+
+ .circle{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background: linear-gradient(135deg,#ff3fcf,#ffb347);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+ } 
+ .mic{
+   position: relative;
+  justify-content: center;
+  align-items: baseline;
+   top:-15px;
+
+ }
+ .hero-content{
+   position: absolute;
+
+  bottom: 70px;          
+  left: 50%;             
+  transform: translateX(-50%);
+
+  margin-top: 40px;      
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* container style */
+#container{
+   
+   width: 100%;
+max-width: 1600px;
+margin: 0 auto;
+border: 1px solid red;
+background:rgba(26, 11, 46, 1) ;
+}
+.container-text{
+   text-align: center;
+   justify-content: center;
+   padding:16px 200px 120px 200px;
+}
+.header{
+color: #FFFF;
+font-size: 2.8rem;
+font-weight: 700;
+
+}
+.description{
+color:#FFFF;
+font-size: 16px;
+font-weight: 400;
+}
+
+.boder{
+   width:93.75%;
+   height: 0;
+   padding: 0 auto 0 auto;
+   border: 1px solid white;
+
+}
+.container-card{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  text-align: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.card-font{
+  
+   
+color: #00FF88;
+
+}
+.p-text{
+
+}
+/* FEATURES */
+
+ /* featured episodes */
+/* EPISODES */
+.epi-header{
+   color: #FFFF;
+   font-size:3rem;
+   font-weight: 700;
+   margin-bottom: 40px;
+   text-align: center;
+}
+.episodes{
+   width: 100%;
+   min-height: 100vh;
+background-color: #24063a;
+margin:0 ;
+ padding:40px 20px ; 
+}
+.episode-grid{
+display:grid;
+max-width:1000px;
+margin:0 auto;
+grid-template-columns: repeat(3,1fr);
+gap:25px;
+padding-bottom:40px;
+
+}
+.episode{
+background:#250D44;
+border-radius:20px;
+overflow:hidden;
+}
+.episode iframe{
+width:100%;
+height:12.5rem;
+object-fit:cover;
+}
+.episode .content{
+padding:24px;
+color: #FFFFFF;
+}
+.episode-text{
+    font-size:24px;
+   font-weight:700;  
+   color: #FFFFFF;
+}
+.episode-p{
+   font-size:1em;
+    font-weight: 400;
+    color: rgba(255,255, 255, 0.6);
+}
+.time{
+   display: flex;
+   gap:5px;
+   color: #00FF88;
+}
+
+ 
+  
+ 
+ 
