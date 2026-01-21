@@ -223,6 +223,47 @@ color: #FFFFFF;
    color: #00FF88;
 }
 
+
+/* host */
+.twitter{
+  color: linear-gradient(135deg,#ff3fcf,#ffb347);
+}
+#host{
+   background-color: #24063a;
+   align-items: center;
+}
+.host-box{
+   display: flex;
+max-width:900px;
+margin:80px auto;
+background:#250D44;
+border-radius:40px;
+padding:30px;
+padding-top:30px;
+gap:30px;
+align-items:center;
+margin-bottom:px;
+
+}
+
+.h-text{
+   color: #FFFFFF;
+   font-size:2rem;
+   font-weight:700;
+   
+}
+.h-p-text{
+   font-size:1rem;
+    font-weight: 400;
+    color: rgba(255,255, 255, 0.6);
+}
+.img-all{
+}
+
+   
+   
+
+
  
   
  
