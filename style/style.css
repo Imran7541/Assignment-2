@@ -26,11 +26,19 @@
 
 
  /* navbar related styles */
- .logo{
-    color: #FFFF;
- }
+ .h-txt-h{
+   color:#FFFFFF;
+}
+.h-txt-h2{
+   background: linear-gradient(135deg, #ff3fcf, #ffb347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
  .navbar{
-    justify-content: space-between;}
+    justify-content: space-between;
+   }
    
  .nav-item{
     list-style: none;
@@ -53,7 +61,7 @@
  }
  
  /* hero-section */
- #section{
+ #banner{
   position: relative;  
    height: 100vh;
    background-image:  url(../assets/hero-bg.png);
@@ -114,16 +122,34 @@
   align-items: center;
   text-align: center;
 }
-.h-txt-h{
-   color:#FFFFFF;
+.hero-txt{
+ color: #FFFFFF;
 }
-.h-txt-h2{
-   background: linear-gradient(135deg, #ff3fcf, #ffb347);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+.hero-txtp{
+color: rgba(255,255, 255, 0.6);
+   font-size: 1rem;
+   font-weight: 400;;
 }
+.hero-btn{
+   display: flex;
+   gap: 10px;
+}
+.btn-display{
+
+   padding: 12px 20px 12px 20px;
+   border-radius: 1000px;
+   background: linear-gradient (135deg,#ff3fcf,#ffb347);
+   
+   justify-content: center;
+
+}
+.btn-display2{
+   padding:10px 15px 10px 15px;
+   border-radius: 1000px;
+   box-sizing: border-box;
+}
+
+
 
 /* container style */
 #container{
@@ -168,12 +194,16 @@ font-weight: 400;
    flex-wrap: wrap;
 }
 .card-font{
-  
-   
 color: #00FF88;
+font-size: 48px;
+font-weight:900;
 
 }
 .p-text{
+   color: rgba(255,255, 255, 0.6);
+   font-size: 1rem;
+   font-weight: 400;
+
 
 }
 /* FEATURES */
@@ -222,7 +252,7 @@ font-weight:700;
 padding: 5px;
 }
 .fp-txt{
-   color: rgba(255,255, 255, 0.6);;
+   color: rgba(255,255, 255, 0.6);
    font-size: 1rem;
    font-weight: 400;
    padding: 5px;
