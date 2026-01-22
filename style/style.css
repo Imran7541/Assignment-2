@@ -422,6 +422,11 @@ color: #FFFFFF;
    }
 
 
+   .card-font{
+     grid-template-columns:repeat(2,1fr);
+   }
+
+
    #features{
    grid-template-areas:
 
@@ -443,10 +448,22 @@ color: #FFFFFF;
     grid-template-columns:
     max-width: 100%;
   }
-  .f-img{
-   grid-template-columns: repeat(2,2fr);
-  }
+  
+  .header-box {
+    border: 1px solid;
+    padding: 16px 30px 16px 30px;
+    background: rgba(26, 11, 46, 1);
 }
+.logo-img {
+    width: 119px;
+    height: 20px;
+}
+
+
+
+}
+
+
    
    
 
