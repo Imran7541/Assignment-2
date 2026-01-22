@@ -177,8 +177,58 @@ color: #00FF88;
 
 }
 /* FEATURES */
+.fu-content{
+   background-color:#24063a ;
+}
 
- /* featured episodes */
+#features>*{
+   
+   background-color:#250D44; 
+   border-radius: 20px;
+   padding: 1.9rem;
+   overflow: hidden;
+}
+.navber{
+   grid-area:navber;
+}
+.mainber{
+   grid-area:mainber;
+}
+#community{
+   grid-area:community;
+}
+#interviews{
+   grid-area:interviews;
+}
+#resources{
+   grid-area: resources;
+}
+#features{
+    display: grid;
+    gap:20px;
+    margin:0 50px 0 50px;
+    padding:80px;
+    grid-template-areas: 
+    "navber mainber mainber"
+    "navber community community"
+    "interviews interviews resources"
+    ;
+
+}
+.fu-txt{
+   color: #FFFFFF; 
+font-size:1.5rem;
+font-weight:700;
+padding: 5px;
+}
+.fp-txt{
+   color: rgba(255,255, 255, 0.6);;
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 5px;
+
+}
+ 
 /* EPISODES */
 .epi-header{
    color: #FFFF;
